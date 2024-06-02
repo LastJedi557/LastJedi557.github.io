@@ -1,11 +1,9 @@
-git clone https://github.com/LastJedi557/LastJedi557.github.io
-cd LastJedi557.github.io
-echo "<!DOCTYPE html>
-<html lang=\"en\">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset=\"UTF-8\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
-    <title>Alex Johnson - Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Al-Ani - Web Developer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -46,7 +44,7 @@ echo "<!DOCTYPE html>
             border-bottom: 2px solid #4CAF50;
             padding-bottom: 10px;
         }
-        .project, .experience, .education, .hobby {
+        .info {
             background-color: white;
             padding: 10px;
             margin-bottom: 10px;
@@ -63,92 +61,45 @@ echo "<!DOCTYPE html>
 </head>
 <body>
     <header>
-        <h1>Alex Johnson</h1>
+        <h1>Abdullah Al-Ani</h1>
         <p>Web Developer</p>
     </header>
     <nav>
-        <a href=\"#about\">About Me</a>
-        <a href=\"#projects\">Projects</a>
-        <a href=\"#skills\">Skills</a>
-        <a href=\"#experience\">Experience</a>
-        <a href=\"#education\">Education</a>
-        <a href=\"#hobbies\">Hobbies</a>
-        <a href=\"#contact\">Contact</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
     </nav>
-    <div class=\"container\">
-        <div id=\"about\" class=\"section\">
+    <div class="container">
+        <div id="about" class="section">
             <h2>About Me</h2>
-            <p>Hello! I'm Alex Johnson, a passionate web developer with over 5 years of experience in creating dynamic and responsive websites. I specialize in front-end development, but I also have a strong understanding of back-end technologies. I'm always eager to learn new things and take on challenging projects.</p>
-        </div>
-        <div id=\"projects\" class=\"section\">
-            <h2>Projects</h2>
-            <div class=\"project\">
-                <h3>Project A</h3>
-                <p>A web application designed to help users track their daily habits and goals. Built with React and Node.js.</p>
-            </div>
-            <div class=\"project\">
-                <h3>Project B</h3>
-                <p>An e-commerce website for a local business, featuring a custom shopping cart and payment gateway integration. Developed using HTML, CSS, JavaScript, and PHP.</p>
+            <div class="info">
+                <p>I'm Abdullah Al-Ani, a 15-year-old web developer based in Michigan. I'm currently a student at Troy High School. I'm originally from Canada and Iraq and come from a family of six. I have a passion for coding and am dedicated to my studies.</p>
             </div>
         </div>
-        <div id=\"skills\" class=\"section\">
+        <div id="skills" class="section">
             <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React, Angular</li>
-                <li>Node.js, Express</li>
-                <li>PHP, MySQL</li>
-                <li>Git, GitHub</li>
-                <li>Responsive Design</li>
-            </ul>
-        </div>
-        <div id=\"experience\" class=\"section\">
-            <h2>Experience</h2>
-            <div class=\"experience\">
-                <h3>Web Developer at Tech Solutions</h3>
-                <p>Jan 2020 - Present</p>
-                <p>Developed and maintained various web applications, collaborating with designers and back-end developers to create seamless user experiences.</p>
-            </div>
-            <div class=\"experience\">
-                <h3>Front-End Developer at Creative Web</h3>
-                <p>Jun 2017 - Dec 2019</p>
-                <p>Worked on multiple client projects, implementing responsive designs and optimizing websites for performance and SEO.</p>
+            <div class="info">
+                <p>I'm proficient in HTML, CSS, JavaScript, and have experience with frameworks like React and Angular. I'm also skilled in Python and Java.</p>
             </div>
         </div>
-        <div id=\"education\" class=\"section\">
-            <h2>Education</h2>
-            <div class=\"education\">
-                <h3>Bachelor of Science in Computer Science</h3>
-                <p>University of Tech - 2017</p>
+        <div id="achievements" class="section">
+            <h2>Achievements</h2>
+            <div class="info">
+                <ul>
+                    <li>National Taekwondo Champion</li>
+                    <li>Michigan Taekwondo Champion</li>
+                    <li>Blackbelt in Taekwondo</li>
+                </ul>
             </div>
         </div>
-        <div id=\"hobbies\" class=\"section\">
-            <h2>Hobbies</h2>
-            <div class=\"hobby\">
-                <h3>Coding</h3>
-                <p>I love coding in my free time, working on open-source projects and exploring new technologies.</p>
-            </div>
-            <div class=\"hobby\">
-                <h3>Hiking</h3>
-                <p>Exploring nature trails and hiking with friends is one of my favorite ways to relax and recharge.</p>
-            </div>
-        </div>
-        <div id=\"contact\" class=\"section\">
+        <div id="contact" class="section">
             <h2>Contact</h2>
-            <ul class=\"contact-info\">
-                <li>Email: alex.johnson@example.com</li>
-                <li>Phone: (123) 456-7890</li>
-                <li>LinkedIn: <a href=\"https://www.linkedin.com/in/alexjohnson\">linkedin.com/in/alexjohnson</a></li>
-                <li>GitHub: <a href=\"https://github.com/alexjohnson\">github.com/alexjohnson</a></li>
+            <ul class="contact-info">
+                <li>Email: alani.d.abdullah15@example.com</li>
+                <li>Phone: (810) 263-9799</li>
             </ul>
         </div>
     </div>
 </body>
-</html>" > index.html
-    ```
-4. Add, commit, and push your changes to GitHub:
-    ```sh
-    git add index.html
-    git commit -m "Initial commit"
-    git push origin master
-    ```
+</html>
