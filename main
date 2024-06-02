@@ -1,5 +1,5 @@
 git clone https://github.com/LastJedi557/LastJedi557.github.io
-cd yourusername.github.io
+cd LastJedi557.github.io
 echo "<!DOCTYPE html>
 <html lang=\"en\">
 <head>
